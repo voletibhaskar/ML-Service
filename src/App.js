@@ -43,7 +43,7 @@ class Header extends Component {
 class Bodycomponent extends Component {
   constructor(props) {
     super(props);
-    this.state = {value: 'fghjkghj'};
+    this.state = {value: 'initial value'};
 
     this.handleOnChange = this.handleOnChange.bind(this);
     this.handleOnSubmit=this.handleOnSubmit.bind(this);
@@ -81,7 +81,7 @@ class Bodycomponent extends Component {
     Name:
     <input type="text" name="name" value={value} onChange={this.handleOnChange} />
     </label>
-    <button onClick={this.handleOnSubmit}>dfgh</button>
+    <button onClick={this.handleOnSubmit}>Submit</button>
     </form>
       </div>
     );
